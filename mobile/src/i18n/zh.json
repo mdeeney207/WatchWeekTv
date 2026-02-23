@@ -1,0 +1,219 @@
+{
+  "common": {
+    "save": "保存",
+    "saving": "保存中…",
+    "clear": "清除",
+    "refresh": "刷新",
+    "all": "全部",
+    "na": "无",
+    "cancel": "取消"
+  },
+
+  "week": {
+    "title": "本周",
+    "timeForecastTitle": "时间预告",
+    "timeForecastMissing": "暂无时间预告。",
+    "noReleases": "暂无更新"
+  },
+
+  "addShow": {
+    "badgeAds": "广告",
+    "moreProviders_one": "+{{count}} 个更多",
+    "moreProviders_other": "+{{count}} 个更多",
+
+    "errorSearchTitle": "TMDB 搜索失败",
+    "errorUnknown": "未知错误",
+
+    "noServicesTitle": "未选择服务",
+    "noServicesBody": "请先到“服务”中至少选择一个流媒体服务。",
+
+    "authErrorTitle": "认证错误",
+    "notSignedInTitle": "未登录",
+    "notSignedInBody": "请重新登录。",
+    "primaryServiceUpdateFailed": "主服务更新失败（0 行被更新）。",
+
+    "addedTitle": "已添加",
+    "addedBody": "已添加 {{name}}。",
+    "addFailedTitle": "添加失败",
+
+    "section": {
+      "title": "添加剧集",
+      "subtitle": "搜索 TMDB，然后一键添加。"
+    },
+
+    "searchPlaceholder": "搜索 TV（例如 Severance）",
+    "searching": "搜索中…",
+    "working": "处理中…",
+    "search": "搜索",
+    "adding": "添加中…",
+    "add": "添加",
+
+    "services": {
+      "loading": "正在加载你的服务…",
+      "noneSelected": "未选择任何服务。请到“服务”中至少选择一个。",
+      "autoAssignPrefix": "自动分配服务：",
+      "multiHint": "点“添加”→ 我们只推荐匹配的美国服务（以数据库为准）。",
+      "loadingShort": "加载服务中…",
+      "selectFirst": "请先选择服务（服务页面）。",
+      "autoAssignInline": "自动分配 {{name}}。"
+    },
+
+    "results": {
+      "title": "结果",
+      "count": "结果：{{count}}",
+      "loadingTag": "（加载中）"
+    },
+
+    "badges": {
+      "checking": "正在检查美国平台…",
+      "unavailable": "服务暂时不可用。",
+      "noUsData": "没有美国平台数据（TMDB）。点“添加”进行同步。"
+    },
+
+    "picker": {
+      "recommendedTitle": "在你的服务中可用",
+      "allTitle": "选择一个服务",
+      "pickAnyway": "仍要选择（显示我所有服务）"
+    },
+
+    "empty": {
+      "noResultsYetTitle": "暂无结果",
+      "noResultsYetBody": "可试试：The Bear、Severance、Reacher、True Detective",
+      "type2Title": "至少输入 2 个字符",
+      "type2Body": "例如：“Severance”",
+      "noMatchesTitle": "无匹配结果",
+      "noMatchesBody": "请尝试不同拼写。"
+    }
+  },
+
+  "services": {
+    "title": "服务",
+    "selectedCount_one": "已选择 {{count}} 项",
+    "selectedCount_other": "已选择 {{count}} 项",
+
+    "selectAll": "全选",
+    "selectShows": "选择剧集",
+    "addShowSearch": "添加剧集（搜索）",
+    "helperText": "选择你可以使用的流媒体服务。这会过滤你的每周日历和提醒。",
+
+    "emptyTitle": "没有可用服务",
+    "emptySubtitle": "请检查数据库种子数据。",
+
+    "tipRefresh": "提示：如果服务有变化，下拉刷新。",
+
+    "alerts": {
+      "authErrorTitle": "认证错误",
+      "errorTitle": "错误",
+      "notSignedInTitle": "未登录",
+      "notSignedInBody": "请重新登录。",
+      "pickAtLeastOneTitle": "至少选择一个",
+      "pickAtLeastOneBody": "请选择一个或多个服务。",
+      "savedTitle": "已保存 ✅",
+      "savedBody_one": "已选择 {{count}} 个服务",
+      "savedBody_other": "已选择 {{count}} 个服务",
+      "saveFailedTitle": "保存失败",
+      "errorUnknown": "未知错误"
+    }
+  },
+
+  "settings": {
+    "title": "设置",
+    "common": {
+      "cancel": "取消",
+      "clear": "清除",
+      "na": "无"
+    },
+    "language": {
+      "title": "语言",
+      "current": "当前：{{current}}",
+      "manualTag": "（手动）",
+      "deviceTag": "（设备）",
+      "resetButton": "重置为设备语言",
+      "labels": {
+        "en": "English",
+        "es": "Español",
+        "zh": "中文",
+        "ru": "Русский"
+      }
+    },
+    "notifications": {
+      "title": "通知",
+      "enableRemindersTitle": "启用提醒",
+      "enableRemindersSubtitle": "仅本地保存（不会自动安排）",
+      "keyLabel": "键"
+    },
+    "data": {
+      "title": "数据",
+      "resyncButton": "重新同步我的剧集",
+      "resyncRunning": "正在重新同步…",
+      "syncSubtitleIdle": "重新获取你关注的所有剧集的集数信息。",
+      "syncSubtitleLoading": "正在加载已关注的剧集…",
+      "syncSubtitleRunning": "正在同步 {{done}}/{{total}}…",
+      "syncSubtitleDone": "完成。成功：{{ok}}，失败：{{failed}}",
+      "forceRefresh": "强制刷新（UI）",
+      "clearCache": "清除本地缓存",
+      "clearing": "清除中…"
+    },
+    "account": {
+      "title": "账户",
+      "signOut": "退出登录",
+      "signingOut": "正在退出…",
+      "signOutNote": "退出后，你需要重新认证才能查看日历。"
+    },
+    "debug": {
+      "title": "调试",
+      "buildInfoTitle": "构建信息",
+      "showBuildInfo": "显示构建/会话信息",
+      "dumpRemindersPref": "输出提醒偏好",
+      "platform": "平台",
+      "projectId": "ProjectId",
+      "appOwnership": "AppOwnership",
+      "userId": "UserId",
+      "email": "Email",
+      "raw": "Raw",
+      "enabled": "Enabled",
+      "remindersPrefTitle": "提醒偏好"
+    },
+    "about": {
+      "title": "关于",
+      "body": "WatchWeek — 每周电视日历 + 提醒。"
+    },
+    "alerts": {
+      "saveFailedTitle": "保存失败",
+      "couldNotChangeLanguage": "无法更改语言。",
+      "resetFailedTitle": "重置失败",
+      "couldNotResetLanguage": "无法重置语言。",
+      "languageResetTitle": "语言已重置",
+      "languageResetBody": "正在使用设备语言（{{lang}}）。",
+
+      "couldNotSaveNotifPref": "无法保存通知偏好。",
+
+      "signedOutTitle": "已退出",
+      "signedOutBody": "你已退出登录。",
+      "signOutFailedTitle": "退出失败",
+
+      "refreshedTitle": "已刷新",
+      "refreshedBody": "周/今晚将重新加载。",
+
+      "clearCacheConfirmTitle": "清除本地缓存？",
+      "clearCacheConfirmBody": "这将清除本地存储（偏好设置和缓存数据）。你可能需要重新登录。",
+      "clearedTitle": "已清除",
+      "clearedBody": "本地缓存已清除。",
+      "clearFailedTitle": "清除失败",
+
+      "authErrorTitle": "认证错误",
+      "notSignedInTitle": "未登录",
+      "notSignedInBody": "请重新登录。",
+
+      "nothingToSyncTitle": "没有可同步内容",
+      "nothingToSyncBody": "你还没有关注任何剧集。",
+
+      "resyncCompleteTitle": "重新同步完成",
+      "resyncCompleteBodyOk": "已同步 {{ok}}/{{total}} 个剧集。",
+      "resyncCompleteBodyWithFailures": "已同步 {{ok}}/{{total}} 个剧集。失败：{{failed}}。（查看日志）",
+      "resyncFailedTitle": "重新同步失败",
+
+      "errorUnknown": "未知错误"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "665134733546",
+    "project_id": "watchweek",
+    "storage_bucket": "watchweek.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665134733546:android:973870c5ed616976b61f93",
+        "android_client_info": {
+          "package_name": "com.nubble.watchweek"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKH7Ik6nA74zO3-f4cm_MF_rt2eSPh7ZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

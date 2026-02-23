@@ -1,0 +1,219 @@
+{
+  "common": {
+    "save": "Guardar",
+    "saving": "Guardando…",
+    "clear": "Borrar",
+    "refresh": "Actualizar",
+    "all": "Todo",
+    "na": "n/d",
+    "cancel": "Cancelar"
+  },
+
+  "week": {
+    "title": "Esta semana",
+    "timeForecastTitle": "Pronóstico de hora",
+    "timeForecastMissing": "Aún no hay pronóstico de hora.",
+    "noReleases": "Sin estrenos"
+  },
+
+  "addShow": {
+    "badgeAds": "anuncios",
+    "moreProviders_one": "+{{count}} más",
+    "moreProviders_other": "+{{count}} más",
+
+    "errorSearchTitle": "Falló la búsqueda de TMDB",
+    "errorUnknown": "Error desconocido",
+
+    "noServicesTitle": "No hay servicios seleccionados",
+    "noServicesBody": "Ve a Servicios y selecciona al menos un servicio de streaming primero.",
+
+    "authErrorTitle": "Error de autenticación",
+    "notSignedInTitle": "Sesión no iniciada",
+    "notSignedInBody": "Por favor inicia sesión de nuevo.",
+    "primaryServiceUpdateFailed": "Falló la actualización del servicio principal (0 filas actualizadas).",
+
+    "addedTitle": "Agregado",
+    "addedBody": "Se agregó {{name}}.",
+    "addFailedTitle": "No se pudo agregar",
+
+    "section": {
+      "title": "Agregar serie",
+      "subtitle": "Busca en TMDB y agrégala con un toque."
+    },
+
+    "searchPlaceholder": "Buscar TV (ej. Severance)",
+    "searching": "Buscando…",
+    "working": "Trabajando…",
+    "search": "Buscar",
+    "adding": "Agregando…",
+    "add": "Agregar",
+
+    "services": {
+      "loading": "Cargando tus servicios…",
+      "noneSelected": "No hay servicios seleccionados. Ve a Servicios y elige al menos uno.",
+      "autoAssignPrefix": "Asignando automáticamente:",
+      "multiHint": "Toca Agregar → recomendaremos solo servicios de EE. UU. que coincidan (DB-truth).",
+      "loadingShort": "Cargando servicios…",
+      "selectFirst": "Primero selecciona servicios (pantalla Servicios).",
+      "autoAssignInline": "Asignando automáticamente {{name}}."
+    },
+
+    "results": {
+      "title": "Resultados",
+      "count": "Resultados: {{count}}",
+      "loadingTag": "(cargando)"
+    },
+
+    "badges": {
+      "checking": "Comprobando streaming en EE. UU.…",
+      "unavailable": "Servicios no disponibles ahora.",
+      "noUsData": "Sin datos de streaming en EE. UU. (TMDB). Toca Agregar para sincronizar."
+    },
+
+    "picker": {
+      "recommendedTitle": "Disponible en tus servicios",
+      "allTitle": "Elige un servicio",
+      "pickAnyway": "Elegir de todos mis servicios"
+    },
+
+    "empty": {
+      "noResultsYetTitle": "Aún no hay resultados",
+      "noResultsYetBody": "Prueba: The Bear, Severance, Reacher, True Detective",
+      "type2Title": "Escribe al menos 2 caracteres",
+      "type2Body": "Ejemplo: “Severance”",
+      "noMatchesTitle": "Sin coincidencias",
+      "noMatchesBody": "Prueba con otra ortografía."
+    }
+  },
+
+  "services": {
+    "title": "Servicios",
+    "selectedCount_one": "{{count}} seleccionado",
+    "selectedCount_other": "{{count}} seleccionados",
+
+    "selectAll": "Seleccionar todo",
+    "selectShows": "Seleccionar series",
+    "addShowSearch": "Agregar serie (buscar)",
+    "helperText": "Elige los servicios de streaming a los que tienes acceso. Esto filtra tu calendario semanal y recordatorios.",
+
+    "emptyTitle": "No hay servicios disponibles",
+    "emptySubtitle": "Revisa la carga inicial de la base de datos.",
+
+    "tipRefresh": "Consejo: Desliza hacia abajo para actualizar si cambian los servicios.",
+
+    "alerts": {
+      "authErrorTitle": "Error de autenticación",
+      "errorTitle": "Error",
+      "notSignedInTitle": "Sesión no iniciada",
+      "notSignedInBody": "Por favor inicia sesión de nuevo.",
+      "pickAtLeastOneTitle": "Elige al menos uno",
+      "pickAtLeastOneBody": "Selecciona uno o más servicios.",
+      "savedTitle": "Guardado ✅",
+      "savedBody_one": "{{count}} servicio seleccionado",
+      "savedBody_other": "{{count}} servicios seleccionados",
+      "saveFailedTitle": "Error al guardar",
+      "errorUnknown": "Error desconocido"
+    }
+  },
+
+  "settings": {
+    "title": "Ajustes",
+    "common": {
+      "cancel": "Cancelar",
+      "clear": "Borrar",
+      "na": "n/d"
+    },
+    "language": {
+      "title": "Idioma",
+      "current": "Actual: {{current}}",
+      "manualTag": "(manual)",
+      "deviceTag": "(dispositivo)",
+      "resetButton": "Restablecer al idioma del dispositivo",
+      "labels": {
+        "en": "English",
+        "es": "Español",
+        "zh": "中文",
+        "ru": "Русский"
+      }
+    },
+    "notifications": {
+      "title": "Notificaciones",
+      "enableRemindersTitle": "Activar recordatorios",
+      "enableRemindersSubtitle": "Se guarda localmente (no programa por sí solo)",
+      "keyLabel": "Clave"
+    },
+    "data": {
+      "title": "Datos",
+      "resyncButton": "Re-sincronizar mis series",
+      "resyncRunning": "Re-sincronización en curso…",
+      "syncSubtitleIdle": "Volver a obtener episodios de todas las series que sigues.",
+      "syncSubtitleLoading": "Cargando series seguidas…",
+      "syncSubtitleRunning": "Sincronizando {{done}}/{{total}}…",
+      "syncSubtitleDone": "Listo. OK: {{ok}}, Fallidas: {{failed}}",
+      "forceRefresh": "Forzar actualización (UI)",
+      "clearCache": "Borrar caché local",
+      "clearing": "Borrando…"
+    },
+    "account": {
+      "title": "Cuenta",
+      "signOut": "Cerrar sesión",
+      "signingOut": "Cerrando sesión…",
+      "signOutNote": "Si cierras sesión, tendrás que volver a autenticarte para ver tu calendario."
+    },
+    "debug": {
+      "title": "Depuración",
+      "buildInfoTitle": "Info de compilación",
+      "showBuildInfo": "Mostrar info de compilación/sesión",
+      "dumpRemindersPref": "Volcar preferencia de recordatorios",
+      "platform": "Plataforma",
+      "projectId": "ProjectId",
+      "appOwnership": "AppOwnership",
+      "userId": "UserId",
+      "email": "Email",
+      "raw": "Raw",
+      "enabled": "Enabled",
+      "remindersPrefTitle": "Preferencia de recordatorios"
+    },
+    "about": {
+      "title": "Acerca de",
+      "body": "WatchWeek — calendario semanal de TV + recordatorios."
+    },
+    "alerts": {
+      "saveFailedTitle": "Error al guardar",
+      "couldNotChangeLanguage": "No se pudo cambiar el idioma.",
+      "resetFailedTitle": "Error al restablecer",
+      "couldNotResetLanguage": "No se pudo restablecer el idioma.",
+      "languageResetTitle": "Idioma restablecido",
+      "languageResetBody": "Usando el idioma del dispositivo ({{lang}}).",
+
+      "couldNotSaveNotifPref": "No se pudo guardar la preferencia de notificaciones.",
+
+      "signedOutTitle": "Sesión cerrada",
+      "signedOutBody": "Has cerrado sesión.",
+      "signOutFailedTitle": "Error al cerrar sesión",
+
+      "refreshedTitle": "Actualizado",
+      "refreshedBody": "Semana/Hoy se recargará.",
+
+      "clearCacheConfirmTitle": "¿Borrar caché local?",
+      "clearCacheConfirmBody": "Esto borrará el almacenamiento local (preferencias y datos en caché). Puede que debas iniciar sesión de nuevo.",
+      "clearedTitle": "Borrado",
+      "clearedBody": "Caché local borrada.",
+      "clearFailedTitle": "Error al borrar",
+
+      "authErrorTitle": "Error de autenticación",
+      "notSignedInTitle": "Sesión no iniciada",
+      "notSignedInBody": "Por favor inicia sesión de nuevo.",
+
+      "nothingToSyncTitle": "Nada para sincronizar",
+      "nothingToSyncBody": "Aún no sigues ninguna serie.",
+
+      "resyncCompleteTitle": "Re-sincronización completa",
+      "resyncCompleteBodyOk": "Se sincronizaron {{ok}}/{{total}} series.",
+      "resyncCompleteBodyWithFailures": "Se sincronizaron {{ok}}/{{total}} series. Fallidas: {{failed}}. (Revisa logs)",
+      "resyncFailedTitle": "Falló la re-sincronización",
+
+      "errorUnknown": "Error desconocido"
+    }
+  }
+}

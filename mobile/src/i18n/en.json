@@ -1,0 +1,219 @@
+{
+  "common": {
+    "save": "Save",
+    "saving": "Saving…",
+    "clear": "Clear",
+    "refresh": "Refresh",
+    "all": "All",
+    "na": "n/a",
+    "cancel": "Cancel"
+  },
+
+  "week": {
+    "title": "This Week",
+    "timeForecastTitle": "Time forecast",
+    "timeForecastMissing": "No time forecast yet.",
+    "noReleases": "No releases"
+  },
+
+  "addShow": {
+    "badgeAds": "ads",
+    "moreProviders_one": "+{{count}} more",
+    "moreProviders_other": "+{{count}} more",
+
+    "errorSearchTitle": "TMDB search failed",
+    "errorUnknown": "Unknown error",
+
+    "noServicesTitle": "No services selected",
+    "noServicesBody": "Go to Services and select at least one streaming service first.",
+
+    "authErrorTitle": "Auth error",
+    "notSignedInTitle": "Not signed in",
+    "notSignedInBody": "Please sign in again.",
+    "primaryServiceUpdateFailed": "Primary service update failed (0 rows updated).",
+
+    "addedTitle": "Added",
+    "addedBody": "{{name}} was added.",
+    "addFailedTitle": "Add failed",
+
+    "section": {
+      "title": "Add a show",
+      "subtitle": "Search TMDB, then add it in one tap."
+    },
+
+    "searchPlaceholder": "Search TV (e.g. Severance)",
+    "searching": "Searching…",
+    "working": "Working…",
+    "search": "Search",
+    "adding": "Adding…",
+    "add": "Add",
+
+    "services": {
+      "loading": "Loading your services…",
+      "noneSelected": "No services selected. Go to Services and pick at least one.",
+      "autoAssignPrefix": "Auto-assigning service:",
+      "multiHint": "Tap Add → we’ll recommend only matching US services (DB-truth).",
+      "loadingShort": "Loading services…",
+      "selectFirst": "Select services first (Services screen).",
+      "autoAssignInline": "Auto-assigning {{name}}."
+    },
+
+    "results": {
+      "title": "Results",
+      "count": "Results: {{count}}",
+      "loadingTag": "(loading)"
+    },
+
+    "badges": {
+      "checking": "Checking US streaming…",
+      "unavailable": "Services unavailable right now.",
+      "noUsData": "No US streaming data (TMDB). Tap Add to sync."
+    },
+
+    "picker": {
+      "recommendedTitle": "Available on your services",
+      "allTitle": "Pick a service",
+      "pickAnyway": "Pick anyway (show all my services)"
+    },
+
+    "empty": {
+      "noResultsYetTitle": "No results yet",
+      "noResultsYetBody": "Try: The Bear, Severance, Reacher, True Detective",
+      "type2Title": "Type at least 2 characters",
+      "type2Body": "Example: “Severance”",
+      "noMatchesTitle": "No matches",
+      "noMatchesBody": "Try a different spelling."
+    }
+  },
+
+  "services": {
+    "title": "Services",
+    "selectedCount_one": "{{count}} selected",
+    "selectedCount_other": "{{count}} selected",
+
+    "selectAll": "Select all",
+    "selectShows": "Select Shows",
+    "addShowSearch": "Add Show (Search)",
+    "helperText": "Choose the streaming services you have access to. This filters your weekly calendar and reminders.",
+
+    "emptyTitle": "No services available",
+    "emptySubtitle": "Check your database seed.",
+
+    "tipRefresh": "Tip: Pull down to refresh if services change.",
+
+    "alerts": {
+      "authErrorTitle": "Auth error",
+      "errorTitle": "Error",
+      "notSignedInTitle": "Not signed in",
+      "notSignedInBody": "Please sign in again.",
+      "pickAtLeastOneTitle": "Pick at least one",
+      "pickAtLeastOneBody": "Select one or more services.",
+      "savedTitle": "Saved ✅",
+      "savedBody_one": "{{count}} service selected",
+      "savedBody_other": "{{count}} services selected",
+      "saveFailedTitle": "Save failed",
+      "errorUnknown": "Unknown error"
+    }
+  },
+
+  "settings": {
+    "title": "Settings",
+    "common": {
+      "cancel": "Cancel",
+      "clear": "Clear",
+      "na": "n/a"
+    },
+    "language": {
+      "title": "Language",
+      "current": "Current: {{current}}",
+      "manualTag": "(manual)",
+      "deviceTag": "(device)",
+      "resetButton": "Reset to device language",
+      "labels": {
+        "en": "English",
+        "es": "Español",
+        "zh": "中文",
+        "ru": "Русский"
+      }
+    },
+    "notifications": {
+      "title": "Notifications",
+      "enableRemindersTitle": "Enable reminders",
+      "enableRemindersSubtitle": "Stored locally (doesn’t schedule by itself)",
+      "keyLabel": "Key"
+    },
+    "data": {
+      "title": "Data",
+      "resyncButton": "Re-sync my shows",
+      "resyncRunning": "Re-sync running…",
+      "syncSubtitleIdle": "Re-fetch episodes for all shows you follow.",
+      "syncSubtitleLoading": "Loading followed shows…",
+      "syncSubtitleRunning": "Syncing {{done}}/{{total}}…",
+      "syncSubtitleDone": "Done. OK: {{ok}}, Failed: {{failed}}",
+      "forceRefresh": "Force refresh (UI)",
+      "clearCache": "Clear local cache",
+      "clearing": "Clearing…"
+    },
+    "account": {
+      "title": "Account",
+      "signOut": "Sign out",
+      "signingOut": "Signing out…",
+      "signOutNote": "If you sign out you’ll need to re-authenticate to see your calendar."
+    },
+    "debug": {
+      "title": "Debug",
+      "buildInfoTitle": "Build info",
+      "showBuildInfo": "Show build/session info",
+      "dumpRemindersPref": "Dump reminders pref",
+      "platform": "Platform",
+      "projectId": "ProjectId",
+      "appOwnership": "AppOwnership",
+      "userId": "UserId",
+      "email": "Email",
+      "raw": "Raw",
+      "enabled": "Enabled",
+      "remindersPrefTitle": "Reminders pref"
+    },
+    "about": {
+      "title": "About",
+      "body": "WatchWeek — weekly TV calendar + reminders."
+    },
+    "alerts": {
+      "saveFailedTitle": "Save failed",
+      "couldNotChangeLanguage": "Could not change language.",
+      "resetFailedTitle": "Reset failed",
+      "couldNotResetLanguage": "Could not reset language.",
+      "languageResetTitle": "Language reset",
+      "languageResetBody": "Using device language ({{lang}}).",
+
+      "couldNotSaveNotifPref": "Could not save notification preference.",
+
+      "signedOutTitle": "Signed out",
+      "signedOutBody": "You are signed out.",
+      "signOutFailedTitle": "Sign out failed",
+
+      "refreshedTitle": "Refreshed",
+      "refreshedBody": "Week/Tonight will reload.",
+
+      "clearCacheConfirmTitle": "Clear local cache?",
+      "clearCacheConfirmBody": "This will wipe local app storage (preferences and cached data). You may need to sign in again.",
+      "clearedTitle": "Cleared",
+      "clearedBody": "Local cache cleared.",
+      "clearFailedTitle": "Clear failed",
+
+      "authErrorTitle": "Auth error",
+      "notSignedInTitle": "Not signed in",
+      "notSignedInBody": "Please sign in again.",
+
+      "nothingToSyncTitle": "Nothing to sync",
+      "nothingToSyncBody": "You aren’t following any shows yet.",
+
+      "resyncCompleteTitle": "Re-sync complete",
+      "resyncCompleteBodyOk": "Synced {{ok}}/{{total}} shows.",
+      "resyncCompleteBodyWithFailures": "Synced {{ok}}/{{total}} shows. Failed: {{failed}}. (Check logs)",
+      "resyncFailedTitle": "Re-sync failed",
+
+      "errorUnknown": "Unknown error"
+    }
+  }
+}

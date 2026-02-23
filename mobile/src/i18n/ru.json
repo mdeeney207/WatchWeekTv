@@ -1,0 +1,219 @@
+{
+  "common": {
+    "save": "Сохранить",
+    "saving": "Сохранение…",
+    "clear": "Очистить",
+    "refresh": "Обновить",
+    "all": "Все",
+    "na": "н/д",
+    "cancel": "Отмена"
+  },
+
+  "week": {
+    "title": "Эта неделя",
+    "timeForecastTitle": "Прогноз по времени",
+    "timeForecastMissing": "Пока нет прогноза по времени.",
+    "noReleases": "Нет релизов"
+  },
+
+  "addShow": {
+    "badgeAds": "реклама",
+    "moreProviders_one": "+{{count}} ещё",
+    "moreProviders_other": "+{{count}} ещё",
+
+    "errorSearchTitle": "Сбой поиска TMDB",
+    "errorUnknown": "Неизвестная ошибка",
+
+    "noServicesTitle": "Сервисы не выбраны",
+    "noServicesBody": "Перейдите в «Сервисы» и выберите хотя бы один стриминговый сервис.",
+
+    "authErrorTitle": "Ошибка авторизации",
+    "notSignedInTitle": "Вы не вошли",
+    "notSignedInBody": "Пожалуйста, войдите снова.",
+    "primaryServiceUpdateFailed": "Не удалось обновить основной сервис (0 строк обновлено).",
+
+    "addedTitle": "Добавлено",
+    "addedBody": "Добавлено: {{name}}.",
+    "addFailedTitle": "Не удалось добавить",
+
+    "section": {
+      "title": "Добавить сериал",
+      "subtitle": "Найдите в TMDB и добавьте одним нажатием."
+    },
+
+    "searchPlaceholder": "Поиск TV (например, Severance)",
+    "searching": "Поиск…",
+    "working": "Выполняется…",
+    "search": "Искать",
+    "adding": "Добавление…",
+    "add": "Добавить",
+
+    "services": {
+      "loading": "Загрузка ваших сервисов…",
+      "noneSelected": "Сервисы не выбраны. Перейдите в «Сервисы» и выберите хотя бы один.",
+      "autoAssignPrefix": "Автоназначение сервиса:",
+      "multiHint": "Нажмите «Добавить» → покажем только подходящие сервисы США (по данным БД).",
+      "loadingShort": "Загрузка сервисов…",
+      "selectFirst": "Сначала выберите сервисы (экран «Сервисы»).",
+      "autoAssignInline": "Автоназначение: {{name}}."
+    },
+
+    "results": {
+      "title": "Результаты",
+      "count": "Результаты: {{count}}",
+      "loadingTag": "(загрузка)"
+    },
+
+    "badges": {
+      "checking": "Проверяем стриминг в США…",
+      "unavailable": "Сервисы сейчас недоступны.",
+      "noUsData": "Нет данных по стримингу в США (TMDB). Нажмите «Добавить», чтобы синхронизировать."
+    },
+
+    "picker": {
+      "recommendedTitle": "Доступно в ваших сервисах",
+      "allTitle": "Выберите сервис",
+      "pickAnyway": "Выбрать вручную (показать все мои сервисы)"
+    },
+
+    "empty": {
+      "noResultsYetTitle": "Пока нет результатов",
+      "noResultsYetBody": "Попробуйте: The Bear, Severance, Reacher, True Detective",
+      "type2Title": "Введите минимум 2 символа",
+      "type2Body": "Пример: «Severance»",
+      "noMatchesTitle": "Совпадений нет",
+      "noMatchesBody": "Попробуйте другое написание."
+    }
+  },
+
+  "services": {
+    "title": "Сервисы",
+    "selectedCount_one": "Выбрано: {{count}}",
+    "selectedCount_other": "Выбрано: {{count}}",
+
+    "selectAll": "Выбрать все",
+    "selectShows": "Выбрать сериалы",
+    "addShowSearch": "Добавить сериал (поиск)",
+    "helperText": "Выберите стриминговые сервисы, к которым у вас есть доступ. Это фильтрует ваш недельный календарь и напоминания.",
+
+    "emptyTitle": "Нет доступных сервисов",
+    "emptySubtitle": "Проверьте seed/инициализацию базы данных.",
+
+    "tipRefresh": "Совет: потяните вниз, чтобы обновить список, если сервисы изменились.",
+
+    "alerts": {
+      "authErrorTitle": "Ошибка авторизации",
+      "errorTitle": "Ошибка",
+      "notSignedInTitle": "Вы не вошли",
+      "notSignedInBody": "Пожалуйста, войдите снова.",
+      "pickAtLeastOneTitle": "Выберите хотя бы один",
+      "pickAtLeastOneBody": "Выберите один или несколько сервисов.",
+      "savedTitle": "Сохранено ✅",
+      "savedBody_one": "Выбран {{count}} сервис",
+      "savedBody_other": "Выбрано сервисов: {{count}}",
+      "saveFailedTitle": "Не удалось сохранить",
+      "errorUnknown": "Неизвестная ошибка"
+    }
+  },
+
+  "settings": {
+    "title": "Настройки",
+    "common": {
+      "cancel": "Отмена",
+      "clear": "Очистить",
+      "na": "н/д"
+    },
+    "language": {
+      "title": "Язык",
+      "current": "Текущий: {{current}}",
+      "manualTag": "(вручную)",
+      "deviceTag": "(устройство)",
+      "resetButton": "Сбросить на язык устройства",
+      "labels": {
+        "en": "English",
+        "es": "Español",
+        "zh": "中文",
+        "ru": "Русский"
+      }
+    },
+    "notifications": {
+      "title": "Уведомления",
+      "enableRemindersTitle": "Включить напоминания",
+      "enableRemindersSubtitle": "Хранится локально (само по себе не планирует)",
+      "keyLabel": "Ключ"
+    },
+    "data": {
+      "title": "Данные",
+      "resyncButton": "Пересинхронизировать мои сериалы",
+      "resyncRunning": "Пересинхронизация…",
+      "syncSubtitleIdle": "Повторно получить эпизоды для всех сериалов, за которыми вы следите.",
+      "syncSubtitleLoading": "Загрузка отслеживаемых сериалов…",
+      "syncSubtitleRunning": "Синхронизация {{done}}/{{total}}…",
+      "syncSubtitleDone": "Готово. OK: {{ok}}, Ошибки: {{failed}}",
+      "forceRefresh": "Принудительное обновление (UI)",
+      "clearCache": "Очистить локальный кэш",
+      "clearing": "Очистка…"
+    },
+    "account": {
+      "title": "Аккаунт",
+      "signOut": "Выйти",
+      "signingOut": "Выход…",
+      "signOutNote": "После выхода потребуется повторная аутентификация, чтобы увидеть календарь."
+    },
+    "debug": {
+      "title": "Отладка",
+      "buildInfoTitle": "Информация о сборке",
+      "showBuildInfo": "Показать информацию о сборке/сессии",
+      "dumpRemindersPref": "Показать настройку напоминаний",
+      "platform": "Платформа",
+      "projectId": "ProjectId",
+      "appOwnership": "AppOwnership",
+      "userId": "UserId",
+      "email": "Email",
+      "raw": "Raw",
+      "enabled": "Enabled",
+      "remindersPrefTitle": "Настройка напоминаний"
+    },
+    "about": {
+      "title": "О приложении",
+      "body": "WatchWeek — недельный ТВ-календарь + напоминания."
+    },
+    "alerts": {
+      "saveFailedTitle": "Не удалось сохранить",
+      "couldNotChangeLanguage": "Не удалось изменить язык.",
+      "resetFailedTitle": "Сброс не удался",
+      "couldNotResetLanguage": "Не удалось сбросить язык.",
+      "languageResetTitle": "Язык сброшен",
+      "languageResetBody": "Используется язык устройства ({{lang}}).",
+
+      "couldNotSaveNotifPref": "Не удалось сохранить настройку уведомлений.",
+
+      "signedOutTitle": "Вы вышли",
+      "signedOutBody": "Вы вышли из аккаунта.",
+      "signOutFailedTitle": "Не удалось выйти",
+
+      "refreshedTitle": "Обновлено",
+      "refreshedBody": "Неделя/Сегодня будет перезагружено.",
+
+      "clearCacheConfirmTitle": "Очистить локальный кэш?",
+      "clearCacheConfirmBody": "Будет очищено локальное хранилище приложения (настройки и кэш). Возможно, потребуется войти снова.",
+      "clearedTitle": "Очищено",
+      "clearedBody": "Локальный кэш очищен。",
+      "clearFailedTitle": "Очистка не удалась",
+
+      "authErrorTitle": "Ошибка авторизации",
+      "notSignedInTitle": "Вы не вошли",
+      "notSignedInBody": "Пожалуйста, войдите снова.",
+
+      "nothingToSyncTitle": "Нечего синхронизировать",
+      "nothingToSyncBody": "Вы пока не отслеживаете ни одного сериала.",
+
+      "resyncCompleteTitle": "Пересинхронизация завершена",
+      "resyncCompleteBodyOk": "Синхронизировано {{ok}}/{{total}} сериалов.",
+      "resyncCompleteBodyWithFailures": "Синхронизировано {{ok}}/{{total}} сериалов. Ошибки: {{failed}}. (См. логи)",
+      "resyncFailedTitle": "Пересинхронизация не удалась",
+
+      "errorUnknown": "Неизвестная ошибка"
+    }
+  }
+}
