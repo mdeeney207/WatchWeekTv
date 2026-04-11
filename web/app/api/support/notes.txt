@@ -1,0 +1,15 @@
+Install nodemailer:
+powershellnpm install nodemailer
+npm install --save-dev @types/nodemailer
+```
+
+---
+
+**Add these env vars** to `.env.local` and your Vercel dashboard. The recommended setup is [Resend](https://resend.com) (free tier, dead simple):
+```
+SMTP_HOST=smtp.resend.com
+SMTP_PORT=465
+SMTP_SECURE=true
+SMTP_USER=resend
+SMTP_PASS=re_YOUR_API_KEY_HERE
+SMTP_FROM=WatchWeek <noreply@watchweektv.com>

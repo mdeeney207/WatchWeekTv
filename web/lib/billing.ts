@@ -1,0 +1,1 @@
+export const FREE_FOLLOW_LIMIT = 2;
